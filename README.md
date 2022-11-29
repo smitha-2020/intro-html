@@ -11,9 +11,10 @@
 - Contact Form
 
 ###### Technology skills used:
-HTML5
-GIT
-WAI-ARIA attributes
+- HTML5
+- GIT
+- WAI-ARIA Attributes.
+
 
 ##### Project structure
 C:.
