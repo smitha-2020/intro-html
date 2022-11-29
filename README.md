@@ -25,8 +25,16 @@ C:.
  └───  top2.png
 
 #### Getting Started
-- Fork the parent repo
-- clone the Repo: git clone gitLink
+
+```sh
+Fork the parent repo
+```
+
+```sh
+clone the Repo: git clone gitLink
+```
+
+
 
 #### Result
  ✨Magic ✨
