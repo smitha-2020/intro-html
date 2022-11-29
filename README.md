@@ -29,6 +29,8 @@ C:.
 - clone the Repo: git clone gitLink
 
 #### Result
+ ✨Magic ✨
+Website is deployed and can be checked here https://bright-tiramisu-e317ea.netlify.app/
 
 ![alt text](https://github.com/smitha-2020/fs13-basic-html/blob/main/top1.jpg?raw=true)
 
