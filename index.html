@@ -10,35 +10,73 @@
 
     <header>
         <nav>
-        <a href="#intro">Smitha Kamath </a> | 
-        <a href="#tech">Tech Stack </a>  |
-        <a href="#experience">Experience </a>  |
-        <a href="#education">Education </a>
-    </nav>
-    <div id="intro">
-        <h4>
+            <a href="#intro">Smitha Kamath </a> | 
+            <a href="#tech">Tech Stack </a>  |
+            <a href="#experience">Experience </a>  |
+            <a href="#contact-me">Contact </a>
+       </nav>
+      
+        <h4 id="intro">
              Smitha Kamath<br/>
              <i>FullStack Enthusiast</i><br/>
         </h4>
-        <div>
+      
             <i>
                 Trainee @Integrify Oy<br/>
                 <a href="smitha.kamath@integrify.io">smitha.kamath@integrify.io</a><br/>
                 <a href="tel:+358 458059615">+358 458059615</a><br/>
                  Helsinki, Finland-500034<br/>
             </i>
-        </div>    
-        <p><br/>Hello, welcome to my LinkedIn profile. My name is Smitha, a software developer, specializing in various technologies. I have currently joined Integrify to upskill myself on the cutting edge technologies.
+       
+        <p><br/>Hello, welcome to my profile. My name is Smitha, a software developer, specializing in various technologies. I have currently joined Integrify to upskill myself on the cutting edge technologies.
              For the past 4+ years, I have worked across diverse technologies like Python ,Node, React. databases like MySQL, InfluxdB .AWS cloud solutions(Ec2,Lighsail,Lambda functions,S3) and Docker.
              I am enthusiastic and a quick learner and have good communication skills in English. I also have a YKI level 3 in Finnish.<br/><br/></p>
-        </div>
+       
+        <table>
+            <tr>
+              <th>Skills</th>
+              <th>Years Exprience</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>1+</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Grafana</td>
+              <td>1+</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>1+</td>
+            </tr>
+            <tr>
+              <td>Influxdb</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Docker</td>
+              <td>1</td>
+            </tr>
+            <tr>
+                <td>AWS</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Wordpress</td>
+                <td>2</td>
+              </tr>
+          </table>
     </header>
 
     <main>
        
         <hr>
-        <section id="tech">
-            <h4>Tech Stack</h4>
+        <section>
+            <h4  id="tech">Tech Stack</h4>
             <ol>
                 <li>Technologies
                     <ul>
@@ -68,8 +106,8 @@
             </ol>
         </section>
         <hr>
-        <section id="experience">
-            <h4>Experience</h4>
+        <section>
+            <h4 id="experience">Experience</h4>
              <details>
                 <summary>Fullstack Developer at Integrify</summary>
                 <p>Skills: React.js · C# · .NET Framework · DevOps · Microsoft Azure</p>
@@ -97,11 +135,39 @@
              </details>
         </section>
         <hr>
-        <section id="education">
-            <h4>Education</h4>
-            <div>
-                Visvesvaraya Technological University
+        
+        <section>
+            <h4 id="contact-me">Contact me for Tech discussion:</h4>
+            <form action="" id="form1">
+                <div><label for="lblname">Name:</label> <input id="lblname" type="text" size="50" required aria-required="true" placeholder="Please Enter Name"/><br/><br/></div>
+
+                <div><label for="lblemail">Email:</label> <input id="lblemail" type="text" size="50" required aria-required="true"  placeholder="Please Enter Email Address" aria-describedby="fromemail"/><span id="fromemail">Enter official email address.</span><br/><br/></div>
+                
+                <div>
+                <label for="topic-select">Choose a topic for discussion:</label>
+
+                <select name="topic-select" id="topic-select" multiple="true" aria-describedby="topicdiscuss"> 
+                    <option value="">--Please choose an topic--</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">Css</option>
+                    <option value="React">React</option>
+                    <option value="Grafana">Grafana</option>
+                    <option value="AWS">AWS</option>
+                    <option value="Influxdb">Influxdb</option>
+                </select>
+                <span id="topicdiscuss">Choose multiple topics</span>
+                <br/>
+                <br/>
             </div>
+
+            <div>
+                <div><label for="lbldescribe">Describe:</label> <textarea id="lbldescribe" type="text" cols="60" rows="10" placeholder="short description of the issue"></textarea><br/><br/></div>
+            </div>
+                
+                <button type="submit">Lets Connect</button>
+
+            </form>
+            
         </section>
         <hr>
     </main>
