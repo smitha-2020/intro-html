@@ -29,9 +29,35 @@ C:.
 ```sh
 Fork the parent repo
 ```
-
 ```sh
 clone the Repo: git clone gitLink
+```
+```sh
+Add parent repo to git remote
+```
+```sh
+Update forked repo from its parent
+```
+```sh
+Fetch the update from forked repo to local repo:git pull
+```
+```sh
+Switch to main branch
+```
+```sh
+Add contents
+```
+```sh
+git add .
+```
+```sh
+Commit : git commit -m "comments"
+```
+```sh
+git push remoterepo
+```
+```sh
+Go to parent repo and make a pull request.
 ```
 
 
