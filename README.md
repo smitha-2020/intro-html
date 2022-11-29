@@ -32,4 +32,4 @@ C:.
 
 ![alt text](https://github.com/smitha-2020/fs13-basic-html/blob/main/top1.jpg?raw=true)
 
-![alt text](https://github.com/smitha-2020/fs13-basic-html/blob/main/top2.png?raw=true)
+![alt text](https://github.com/smitha-2020/fs13-basic-html/blob/main/top2.jpg?raw=true)
